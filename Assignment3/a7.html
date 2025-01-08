@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Conference Timetable</title>
+</head>
+<body>
+    <table border="2" width="100%">
+        <thead>
+            <tr>
+                <th>Time</th>
+                <th>Room A</th>
+                <th>Room B</th>
+                <th>Room C</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>9:00 AM - 10:00 AM</td>
+                <td class="keynote" colspan="3" title="Speaker: Dr. Kapoor | Topic: Future of AI">
+                    Keynote: Future of AI
+                </td>
+            </tr>
+            <tr>
+                <td>10:15 AM - 11:15 AM</td>
+                <td title="Speaker: Dhruv | Topic: Cloud Computing">
+                    Workshop: Cloud Computing
+                </td>
+                <td title="Speaker: Vishwajith | Topic: Data Analytics">
+                    Talk: Data Analytics
+                </td>
+                <td title="Speaker: Achintya | Topic: Cybersecurity Basics">
+                    Talk: Cybersecurity Basics
+                </td>
+            </tr>
+            <tr class="break">
+                <td>11:15 AM - 12:15 PM</td>
+                <td colspan="3">Lunch Break</td>
+            </tr>
+            <tr>
+                <td>12:15 PM - 1:15 PM</td>
+                <td title="Speaker: Prakhar | Topic: Machine Learning">
+                    Talk: Machine Learning
+                </td>
+                <td colspan="2" class="keynote" title="Speaker: Prof. Prem | Topic: Innovations in Tech">
+                    Keynote: Innovations in Tech
+                </td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="4">
+                    <strong>Legend:</strong>
+                    <span style="background-color: LightBlue;">Keynote</span>, 
+                    <span style="background-color: LightCoral;">Workshop</span>, 
+                    <span style="background-color: LightGray;">Break</span>
+                </td>
+            </tr>
+        </tfoot>
+    </table>
+</body>
+</html>
